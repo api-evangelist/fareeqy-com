@@ -1,4 +1,4 @@
-# fareeqy-com
+# Fareeqy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-fareeqy-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://fareeqy.com/
+Fareeqy | فريقي هي مساحة عمل عربية لإدارة مشاريع الفرق ومهامها بوضوح، حيث لكل مهمة مسؤول واحد، وموعد واحد، وأولوية واحدة، ويظل تقدّم العمل ظاهرًا. يتيح التطبيق تنظيم المشاريع، تتبع التقدم، وتعاون الفريق بسهولة وبساطة. يبدأ المستخدم مجانًا مع فريقي.
+
+**Areas:** Project Management · Collaboration · Arabic · SaaS · Productivity
+
+## Fareeqy on APIs.io
+
+Everything profiled for Fareeqy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fareeqy-com/](https://apis.io/providers/fareeqy-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Fareeqy Account API](https://apis.io/apis/fareeqy-com/fareeqy-com-account-api/) — The calling key itself and workspace-wide search.
+- [Fareeqy Comments API](https://apis.io/apis/fareeqy-com/fareeqy-com-comments-api/) — Comments on a task list or task, read and written, and the text of files attached to them.
+- [Fareeqy Discussions API](https://apis.io/apis/fareeqy-com/fareeqy-com-discussions-api/) — Majlis discussion topics within a project. Ref ids (mjl-); a slug still resolves.
+- [Fareeqy Events API](https://apis.io/apis/fareeqy-com/fareeqy-com-events-api/) — Company calendar events. Numeric ids.
+- [Fareeqy Files API](https://apis.io/apis/fareeqy-com/fareeqy-com-files-api/) — Project files and external links. Numeric ids; the flat delete address takes a fil- ref.
+- [Fareeqy Folders API](https://apis.io/apis/fareeqy-com/fareeqy-com-folders-api/) — Folders in a project's files section. Numeric ids.
+- [Fareeqy Members API](https://apis.io/apis/fareeqy-com/fareeqy-com-members-api/) — A project's assignable people.
+- [Fareeqy Projects API](https://apis.io/apis/fareeqy-com/fareeqy-com-projects-api/) — The company's projects, private ones included.
+- [Fareeqy Task lists API](https://apis.io/apis/fareeqy-com/fareeqy-com-task-lists-api/) — Containers that group tasks within a project. Ref ids (lst-); a slug still resolves.
+- [Fareeqy Tasks API](https://apis.io/apis/fareeqy-com/fareeqy-com-tasks-api/) — The actionable items nested under a task list. Ref ids (tsk-); a slug still resolves.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Fareeqy Com Agentic Access](https://apis.io/agentic-access/fareeqy-com/fareeqy-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Discussion](https://apis.io/schemas/fareeqy-com/fareeqy-com-discussion/)
+- [Event](https://apis.io/schemas/fareeqy-com/fareeqy-com-event/)
+- [Folder](https://apis.io/schemas/fareeqy-com/fareeqy-com-folder/)
+- [Project](https://apis.io/schemas/fareeqy-com/fareeqy-com-project/)
+- [ProjectFile](https://apis.io/schemas/fareeqy-com/fareeqy-com-project-file/)
+- [TaskList](https://apis.io/schemas/fareeqy-com/fareeqy-com-task-list/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fareeqy Com Context](https://apis.io/jsonld/fareeqy-com/fareeqy-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Fareeqy API Rules](https://apis.io/rules/fareeqy-com/fareeqy-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fareeqy Com Authentication](https://apis.io/security/fareeqy-com/fareeqy-com-authentication/)
+- [Fareeqy Com Domain Security](https://apis.io/security/fareeqy-com/fareeqy-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fareeqy Com Plans Pricing](https://apis.io/plans/fareeqy-com/fareeqy-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fareeqy.com/)
+- [Getting started](https://fareeqy.com/help/connect-ai-assistant-mcp/en)
+- [API reference](https://fareeqy.com/api/v1/docs)
+- [Pricing](https://fareeqy.com/pricing)
+- [Support](https://fareeqy.com/help)
+- [Changelog](https://fareeqy.com/release-notes)
+- [Blog](https://fareeqy.com/blog)
+- [Security](https://fareeqy.com/security)
+- [Terms of service](https://fareeqy.com/terms-and-conditions)
+- [Privacy policy](https://fareeqy.com/privacy-policy)
+- [GitHub](https://github.com/Fareeqy)
+
+## API Evangelist rating
+
+**Kin Score 58.1** — strong · rubric 0.27.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 62.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 60.0 |
+
+**Agent readiness 57.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fareeqy-com/](https://apis.io/providers/fareeqy-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fareeqy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fareeqy-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
